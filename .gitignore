@@ -9,3 +9,6 @@ export_presets.cfg
 # Mono-specific ignores
 .mono/
 data_*/
+
+# For Struct Project
+./scenes/_debug/

@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1706917487
+::res://::1706919429
 ::res://addons/::1706916796
 ::res://addons/anthonyec.camera_preview/::1706916681
 drag_handle.gd::GDScript::-1::1706916604::0::1::::<>Button<>::
@@ -29,7 +29,11 @@ signal.svg::CompressedTexture2D::3303164025475872126::1706916798::1706916798::1:
 ::res://assets/icons/::1706917443
 godot_icon.svg::CompressedTexture2D::947119858758382417::1706915816::1706917443::1::::<><>::
 minecraft_logo_icon.svg::CompressedTexture2D::605729244194865563::1706917426::1706917429::1::::<><>::
-::res://scene/::1706917460
+::res://scene/::1706919429
 main.gd::GDScript::-1::1706916530::0::1::::<>Node3D<>::
-main.tscn::PackedScene::1107125733811713781::1706917460::0::1::::<><>::res://scene/main.gd
-::res://src/::1706916508
+main.tscn::PackedScene::1107125733811713781::1706919453::0::1::::<><>::res://scene/main.gd<>res://src/simple_free-lock_camera/fly_camera.gd
+::res://scene/_debug/::1706918200
+::res://src/::1706919221
+::res://src/simple_free-lock_camera/::1706919429
+fly_camera.gd::GDScript::-1::1706919210::0::1::::FreeLookCamera<>Camera3D<>::
+README.md::TextFile::-1::1706919210::0::1::::<><>::

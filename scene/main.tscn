@@ -1,6 +1,16 @@
-[gd_scene load_steps=2 format=3 uid="uid://p1kg1e0q0hwf"]
+[gd_scene load_steps=4 format=3 uid="uid://p1kg1e0q0hwf"]
 
 [ext_resource type="Script" path="res://scene/main.gd" id="1_7vgpk"]
+[ext_resource type="Script" path="res://src/simple_free-lock_camera/free_look_camera.gd" id="2_ls84s"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_5nwc6"]
 
 [node name="Node3D" type="Node3D"]
 script = ExtResource("1_7vgpk")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(0.84658, 0.238351, -0.47591, 0.00130278, 0.893199, 0.44966, 0.532259, -0.381293, 0.755854, -1.08659, 1.27069, 2.06987)
+script = ExtResource("2_ls84s")
+
+[node name="Куб для ориентации в сцене" type="MeshInstance3D" parent="."]
+mesh = SubResource("BoxMesh_5nwc6")

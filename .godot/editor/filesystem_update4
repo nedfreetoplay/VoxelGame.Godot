@@ -1,1 +1,4 @@
 res://scene/main.tscn
+res://src/FlyCamera.gd
+res://src/fly_camera.gd
+res://src/simple_free-lock_camera/README.md
